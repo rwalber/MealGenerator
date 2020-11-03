@@ -13,10 +13,6 @@ export default function Meal() {
     async function getMeal() {
         api.get('/randomMeal').then( result => {
           setMeal(result.data.meals[0]);
-<<<<<<< HEAD
-=======
-          console.log(result.data.meals[0]);
->>>>>>> main
         });
     };
 
