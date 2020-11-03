@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+}
+
+.banner .images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner img {
+    width: 33%;
+}
+
+.banner .slogan {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.banner .slogan b {
+    color: #fffc00;
+}
+
+.banner .slogan p {
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+}
+
+.meal {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.meal .thumb {
+    width: 30%;
+    display: block;
+}
+
+.meal .content {
+    padding-left: 15px;
+    width: 40%;
+    font-size: 16px;
+}
+
+.meal .instructions {
+    text-align: justify;
+    overflow-y: scroll;
+    height: 150px;
+    padding-right: 10px;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+::-webkit-scrollbar{ 
+    color: transparent;
+}
+
+.title {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.title p {
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+ul li {
+    width:8em;
+    float:left;
+}
+  
